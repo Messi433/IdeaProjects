@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="FaultQuery">
-    <output-path>$PROJECT_DIR$/out/artifacts/FaultQuery</output-path>
-    <root id="archive" name="FaultQuery.war">
-      <element id="artifact" artifact-name="FaultQuery:Web exploded" />
-    </root>
-  </artifact>
-</component>
