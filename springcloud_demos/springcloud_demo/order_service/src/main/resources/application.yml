@@ -1,0 +1,35 @@
+server:
+  port: 9002
+spring:
+  application:
+    name: service-order
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/javastudy?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: k1234567
+  jpa:
+    database: MySQL
+    show-sql: true
+    open-in-view: true
+  #配置Eureka
+  # => 可以只是注册到8000上，但是不注册到8001上，但是8001也有相应数据 => 实现了主从复制，高可用
+  # => 可以多个注册，如下
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8000/eureka/ #,http://localhost:8001/eureka/ #多个eurekaserver之间用,隔开
+  instance:
+    prefer-ip-address: true #使用IP地址注册
+
+# ================设置访问策略========================
+
+
+#shop-service-product: #需要调用的微服务名称
+#  ribbon:
+#    NFLoadBalancerRueClassName: com.netflix.loadbalancer.RandomRule #随机访问策略
+#    ConnectTimeout: 250 # Ribbon的连接超时时间
+#    ReadTimeout: 1000 # Ribbon的数据读取超时时间
+#    OkToRetryOnAllOperations: true #是否对所有操作都进行重试
+#    MaxAutoRetriesNextServer: 1 #切换实例的重试次数
+#    MaxAutoRetries: 1 #对当前实例的重试次数

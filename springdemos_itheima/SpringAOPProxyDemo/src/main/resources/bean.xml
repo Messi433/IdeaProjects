@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:conponet="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--配置dao-->
+    <bean id="accountDao" class="com.example.dao.impl.AccountDAOImpl2">
+        <!--<property name="runner" ref="runner"></property>-->
+        <property name="connectionUtils" ref="connectionUtils"></property>
+    </bean>
+    <!--配置beanFactory-->
+    <bean id="beanFactory" class="com.example.factory.BeanFactory">
+        <!--注入Service-->
+        <property name="accountService" ref="accountService"></property>
+        <!--注入事务管理器-->
+        <property name="transactionManager" ref="transactionManager"></property>
+    </bean>
+    <!--配置代理的Service-->
+    <bean id="proxyAccountService" factory-bean="beanFactory" factory-method="getAccountService"></bean>
+    <!--配置Service-->
+    <bean id="accountService" class="com.example.service.impl.AccountServiceImpl">
+        <property name="accountDAO" ref="accountDao"></property>
+        <property name="transactionManager" ref="transactionManager"></property>
+    </bean>
+    <!--配置dbutils QueryRunner -->
+    <!--多个Dao对象调用 QueryRunner 可能会导致线程冲突，不安全，所以设置成多例-->
+    <bean id="runner" class="org.apache.commons.dbutils.QueryRunner" scope="prototype">
+        <!-- 注入数据源 -->
+        <!--<constructor-arg name="ds" ref="dataSource"></constructor-arg>-->
+    </bean>
+    <!--配置ConnectionUtils的bean-->
+    <bean id="connectionUtils" class="com.example.util.ConnectionUtils">
+        <property name="dataSource" ref="dataSource"></property>
+    </bean>
+    <!--配置事务管理器的bean-->
+    <bean id="transactionManager" class="com.example.util.TransactionManager">
+        <property name="connectionUtils" ref="connectionUtils"></property>
+    </bean>
+    <!--导入db配置文件-->
+    <conponet:property-placeholder location="db.properties"/>
+    <!--配置c3p0数据源 -->
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <!--注入数据源 -->
+        <property name="driverClass" value="${jdbc.driver}"/>
+        <property name="jdbcUrl" value="${jdbc.url}"/>
+        <property name="user" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
+    </bean>
+
+</beans>

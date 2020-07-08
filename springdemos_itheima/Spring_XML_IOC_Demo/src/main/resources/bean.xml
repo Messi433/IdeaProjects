@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+    <context:component-scan base-package="com.com.example.example"></context:component-scan>
+
+    <!--配置dbutils QueryRunner -->
+    <!--多个Dao对象调用 QueryRunner 可能会导致线程冲突，不安全，所以设置成多例-->
+    <bean id="runner" class="org.apache.commons.dbutils.QueryRunner" scope="prototype">
+        <!-- 注入数据源 -->
+        <constructor-arg name="ds" ref="dataSource"></constructor-arg>
+    </bean>
+
+    <!--配置c3p0数据源 -->
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <!--注入数据源 -->
+        <property name="driverClass" value="com.mysql.jdbc.Driver"/>
+        <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/javastudy"/>
+        <property name="user" value="root"/>
+        <property name="password" value="k753951"/>
+    </bean>
+
+</beans>

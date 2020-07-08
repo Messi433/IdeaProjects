@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/collections_demos/collections_demos.iml" filepath="$PROJECT_DIR$/collections_demos/collections_demos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/file_io_demos/file_io_demos.iml" filepath="$PROJECT_DIR$/file_io_demos/file_io_demos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multithread_demo/multithread_demo.iml" filepath="$PROJECT_DIR$/multithread_demo/multithread_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/net_demos/net_demos.iml" filepath="$PROJECT_DIR$/net_demos/net_demos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/reflect_demo/reflect_demo.iml" filepath="$PROJECT_DIR$/reflect_demo/reflect_demo.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.example.dao.IUserDao">
+    <!--重复的sql代码片段-->
+    <sql id="defaultSql">
+        select * from user
+    </sql>
+    <!--id Dao中的方法名；resultType：封装的实体类-->
+    <select id="findAllUser" resultType="User">
+        <include refid="defaultSql"></include>
+    </select>
+    <!--id Dao中的方法名；parameterType：参数类型 resultType：封装的实体类-->
+    <select id="findUserById" parameterType="int" resultType="User">
+        select * from user where id =#{uid};
+    </select>
+    <select id="findUserByName" parameterType="String" resultType="User">
+        select * from user where username like #{uname};
+        <!--select * from user where username like '%${username}%'-->
+    </select>
+    <select id="totalCount" resultType="int">
+        select count(id) from user
+    </select>
+    <insert id="saveUser" parameterType="User">
+        <!--keyProperty返回值的名称，order="AFTER" insert ...之后执行-->
+        <selectKey keyColumn="id" keyProperty="id" resultType="int" order="AFTER">
+            select LAST_INSERT_ID()
+        </selectKey>
+        insert into user(username,birthday,sex,address) values(#{username},#{birthday},#{sex},#{address})
+    </insert>
+
+    <update id="updateUser" parameterType="User">
+        update user set username=#{username},birthday=#{birthday},sex=#{sex},address=#{address} where id = #{id}
+    </update>
+    <!--int 或 Integer 或 java.lang.Integer-->
+    <delete id="deleteUser" parameterType="int">
+        <!--参数任意取名-->
+        delete from user where id = #{uid}
+    </delete>
+
+    <!--实体类作为包装参数查询 user为vo的属性值-->
+    <select id="findByVo" parameterType="QueryVo" resultType="User">
+        select * from user where username like #{user.username}
+    </select>
+
+    <select id="findUserByCondition" resultType="user" parameterType="user">
+        <include refid="defaultSql"></include>
+            <where>
+                <if test="username != null">
+                    and username = #{username}
+                </if>
+                <if test="sex != null">
+                    and sex = #{sex}
+                </if>
+            </where>
+    </select>
+    
+    <select id="findUserInIds" resultType="user" parameterType="QueryVo">
+        select * from user
+        <where>
+            <if test="ids != null and ids.size()>0"><!-- test中的'与'不能和java的'&&'同，要同SQL中的'and'-->
+                <!-- open和close中是对sql in子查询语句的包围 -->
+                <foreach collection="ids" open="and id in (" close=")" item="uid" separator=",">
+                    #{uid}      <!-- item="uid"与#{uid}一致 -->
+                </foreach>
+            </if>
+        </where>
+    </select>
+</mapper>

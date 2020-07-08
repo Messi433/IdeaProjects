@@ -1,0 +1,116 @@
+html {
+	font-size: 1rem;
+}
+
+body {
+	font-size: 0.14rem;
+	background-color: #FBFBFB;
+	/*实际相当于14px*/
+}
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.find_top_div {
+	width: 100%;
+	height: 0.4rem;
+	background-color: #008001;
+	padding: 0.05rem 0rem 0.05rem 0rem;
+}
+
+.find_input {
+	width: 60%;
+	height: 0.1rem;
+	font-size: 0.06rem;
+	margin-left: 0.3rem;
+	margin-top: 0.05rem;
+	padding: 0.05rem;
+	border: 0.03rem solid rgb(116, 116, 116);
+	border-radius: 0.5rem;
+	color: darkgray;
+}
+
+.reset_button {
+	width: 20%;
+	height: 0.25rem;
+	margin-left: 0.1rem;
+	font-size: 0.1rem;
+	font-weight: bold;
+	letter-spacing: 0.1rem;
+	border: none;
+	background-color: transparent;
+	color: white;
+}
+
+.find_main_div {
+	width: 100%;
+	background-color: white;
+	margin-top: 0.1rem;
+	padding: 0.025rem 0rem 0.025rem 0rem;
+}
+
+/*
+.last_page{
+    width: 0.7rem;
+    height: 0.7rem;
+    background-color: #ccc;
+    border-radius: 50%;
+    position: fixed;
+    top: 80%;
+    left: 2%;
+}
+*/
+.result span {
+	font-size: 0.05rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 2.5rem;
+	height: 0.15rem;
+	display: block;
+	padding-left: 0.2rem;
+}
+
+.last_page::before {
+	transform: rotate(180deg);
+	font-size: 0.5rem;
+	position: fixed;
+	content: "›";
+	float: left;
+	margin-top: 0.08rem;
+	margin-left: 0.25rem;
+	color: white;
+}
+
+.back_top {
+	width: 0.7rem;
+	height: 0.7rem;
+	background-color: #ccc;
+	border-radius: 50%;
+	position: fixed;
+	top: 80%;
+	right: 5%;
+}
+
+.back_top::before {
+	/*font-size: 2rem;*/
+	position: fixed;
+	content: "↑";
+	font-size: 0.4rem;
+	padding-top: 0.08rem;
+	padding-left: 0.2rem;
+	color: white;
+}
+
+h1 {
+	font-size: 0.1rem;
+	padding-left: 0.1rem;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}

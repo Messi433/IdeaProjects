@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+    <!-- 属性的加载，先加载内部属性，再加载外部属性文件的属性若外部属性正确映射则外部属性替代内部属性-->
+    <properties resource="db.properties">
+        <property name="jdbc.username" value="root"/>
+        <property name="jdbc.password" value="k753951"/>
+    </properties>
+    <settings>
+        <!--当返回行的所有列都是空时，MyBatis默认返回null-->
+        <setting name="returnInstanceForEmptyRow" value="true"/>
+    </settings>
+    <!--别名配置 放在setting标签之后idea不报错 -->
+    <typeAliases>
+        <!-- 单个别名设置 不区分大小写-->
+        <!--<typeAlias type="com.mybatis.mapper.UserMapper" alias="UserMapper"/>-->
+        <!--包扫描，类名就是类全称不区分大小写-->
+        <package name="com.mybatis.entity"/>
+    </typeAliases>
+    <!--和spring整合后environments将废除-->
+    <environments default="development">
+        <environment id="development">
+            <!--使用了 JDBC 的提交和回滚设置，它依赖于从数据源得到的连接来管理事务作用域-->
+            <transactionManager type="JDBC"/>
+            <!--使用数据池，复用实例-->
+            <dataSource type="POOLED">
+                <property name="driver" value="${jdbc.driverName}"/>
+                <property name="url" value="${jdbc.driverClass}"/>
+                <property name="username" value="${jdbc.username}"/>
+                <property name="password" value="${jdbc.password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <mappers>
+        <mapper resource="sqlMap/User.xml"/>
+        <!--<mapper resource="sqlMap/UserMapper.xml"/>-->
+        <!--
+            包扫描映射：
+             接口与映射文件需须在同一目录下
+             接口名称与映射文件须名称一致
+        -->
+
+        <package name="com.mybatis.mapper"/>
+    </mappers>
+</configuration>

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SpringJDBCTemplate:war">
+    <output-path>$PROJECT_DIR$/SpringJDBCTemplate/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>SpringJDBCTemplate</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Web01.war">
+      <element id="artifact" artifact-name="SpringJDBCTemplate:war exploded" />
+    </root>
+  </artifact>
+</component>

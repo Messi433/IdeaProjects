@@ -1,0 +1,23 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: service-product
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/javastudy?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: k1234567
+  jpa:
+    database: MySQL
+    show-sql: true
+    open-in-view: true
+  #配置Eureka
+  # => 可以只是注册到8000上，但是不注册到8001上，但是8001也有相应数据 => 实现了主从复制，高可用
+  # => 可以多个注册，如下
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8000/eureka/ #,http://localhost:8001/eureka/ #多个eurekaserver之间用,隔开
+  instance:
+    prefer-ip-address: true #使用IP地址注册

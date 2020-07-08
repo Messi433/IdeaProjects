@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org/DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.employee.mapper.HistoryMapper">
+	<resultMap type="com.employee.po.History" id="history">
+		<result column="changeno" property="changeno"/>
+		<result column="empno" property="empno"/>
+		<result column="deptno" property="deptno"/>
+		<result column="salary" property="salary"/>
+		<result column="changedate" property="changedate"/>
+		<result column="changereason" property="changereason"/>
+		<result column="dimissiondate" property="dimissiondate"/>
+		<result column="dimissionreason" property="dimissionreason"/>
+		<result column="employeename" property="employeename"/>
+		<result column="deptname" property="deptname"/>
+		<result column="empname" property="empname"/>
+	</resultMap>
+	<insert id="addHistory" parameterType="com.employee.po.History">
+		insert into history(empno,deptno,salary,changedate,changereason)
+		values(#{empno},#{deptno},#{salary},#{changedate},#{changereason})
+	</insert>
+<insert id="updateHistory" parameterType="com.employee.po.History">
+		insert into history(empno,deptno,salary,changedate,changereason)
+		values(#{empno},#{deptno},#{salary},#{changedate},#{changereason})
+	</insert>
+	<insert id="leave" parameterType="com.employee.po.History">
+	insert into history(empno,deptno,salary,changedate,changereason,dimissiondate,dimissionreason)
+		values(#{empno},#{deptno},#{salary},now(),#{changereason},now(),#{dimissionreason})
+	</insert>
+	<insert id="awary" parameterType="com.employee.po.History">
+		insert into history(empno,deptno,salary,changedate,changereason)
+		values(#{empno},#{deptno},#{salary},now(),#{changereason})
+	</insert>
+	<select id="findAll" resultMap="history" parameterType="java.lang.String">
+select history.empno,empname,history.deptno,deptname,employee.salary,changedate,changereason,
+dimissiondate,dimissionreason from employee,dept,history  where employee.empno = history.empno 
+and dept.deptno=history.deptno and  concat(history.empno,empname,deptname) like concat('%',#{key},'%')
+	</select>
+</mapper>

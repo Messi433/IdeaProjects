@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org/DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.employee.mapper.EmployeeMapper"> 
+<resultMap type="com.employee.po.Employee" id="employee">
+<result column="empno" property="empno"></result>
+<result column="deptno" property="deptno"></result>
+<result column="deptname" property="deptname"></result>
+<result column="empname" property="empname"></result>
+<result column="empsex" property="empsex"></result>
+<result column="entrydate" property="entrydate"></result>
+<result column="empphone" property="empphone"></result>
+<result column="empaddr" property="empaddr"></result>
+<result column="salary" property="salary"></result>
+<result column="levelname" property="levelname"></result>
+<result column="leavedate" property="leavedate"></result>
+<result column="state" property="state"></result>
+<result column="GetCount" property="GetCount"></result>
+</resultMap>
+<select id="getDeptno" resultMap="employee" parameterType="java.lang.Integer">
+select empno,empname,dept.deptname,empsex,entrydate,empphone,empaddr,salary,leavedate,state from employee,dept where employee.deptno=dept.deptno and employee.deptno=#{deptno}
+</select>
+<select id="findAll" resultMap="employee" parameterType="com.employee.po.Employee">
+select empno,empname,dept.deptname,empsex,entrydate,empphone,empaddr,salary,leavedate from dept,employee where employee.deptno = dept.deptno and state = 1
+</select>
+<insert id="addEmployee" parameterType="com.employee.po.Employee">
+insert into employee(empno,deptno,empname,empsex,entrydate,empphone,empaddr,salary,state)
+values(#{empno},#{deptno},#{empname},#{empsex},#{entrydate},#{empphone},#{empaddr},#{salary},1)
+</insert>
+ <select id="getEmpno" resultMap="employee">
+	 	select empno from employee order by empno desc limit 0,1
+ </select>
+ <select id="getEmployee" resultMap="employee" parameterType="com.employee.po.Employee">
+ select * from employee where empno = #{empno}
+ </select>
+ <update id="updateEmployee" parameterType="com.employee.po.Employee">
+update employee 
+<set>
+<if test="deptno !=null">deptno=#{deptno},</if>
+<if test="empname !=null">empname=#{empname},</if>
+<if test="empphone != null">empphone=#{empphone},</if>
+<if test="empaddr !=null">empaddr=#{empaddr},</if>
+<if test="salary != null"> salary=#{salary}</if>
+</set>
+ where empno = #{empno}
+ </update>
+ <select id="leaveEmployee" resultMap="employee" parameterType="java.lang.String">
+ select empno,empname,dept.deptno,dept.deptname,empsex,entrydate,empphone,empaddr,salary from dept,employee where employee.deptno = dept.deptno and employee.empno = #{empno} 
+ </select>
+ <update id="leave" parameterType="java.lang.String">
+ update employee set leavedate = now() where empno=#{empno}
+ </update>
+ <update id="awary" parameterType="java.lang.String">
+ update employee set state = 0 where empno=#{empno}
+ </update>
+</mapper>

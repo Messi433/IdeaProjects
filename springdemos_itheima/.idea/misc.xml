@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/../Spring_Annocation_TX" />
+    <file type="web" url="file://$PROJECT_DIR$/../Spring_XML_TX" />
+    <file type="web" url="file://$PROJECT_DIR$/../SpringAOPProxyDemo" />
+    <file type="web" url="file://$PROJECT_DIR$/../SpringAOPXMLDemo" />
+    <file type="web" url="file://$PROJECT_DIR$/Spring_Abs_Annocation_TX" />
+    <file type="web" url="file://$PROJECT_DIR$/Spring_Absolute_Annocation_TX" />
+    <file type="web" url="file://$PROJECT_DIR$/Spring_Annocation_IOC_Demo" />
+    <file type="web" url="file://$PROJECT_DIR$/Spring_Annocation_TX" />
+    <file type="web" url="file://$PROJECT_DIR$/Spring_XML_IOC_Demo" />
+    <file type="web" url="file://$PROJECT_DIR$/Spring_XML_TX" />
+    <file type="web" url="file://$PROJECT_DIR$/SpringAOPAccountDemo" />
+    <file type="web" url="file://$PROJECT_DIR$/SpringAOPAnnocationDemo" />
+    <file type="web" url="file://$PROJECT_DIR$/SpringAOPProxyDemo" />
+    <file type="web" url="file://$PROJECT_DIR$/SpringAOPXMLDemo" />
+    <file type="web" url="file://$PROJECT_DIR$/SpringJDBCTemplate" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/Spring_Annocation_IOC_Demo/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring_XML_IOC_Demo/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringAOPAccountDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringDemo1/pom.xml" />
+        <option value="$PROJECT_DIR$/../T/SpringAopProxyDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/../SpringAOPProxyDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringAOPProxyDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/../SpringAOPDemo1/pom.xml" />
+        <option value="$PROJECT_DIR$/../SpringAOPAnnocationDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringAOPXMLDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringAOPAnnocationDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringJDBCTemplate/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringTX/pom.xml" />
+        <option value="$PROJECT_DIR$/../Spring_XML_TX/pom.xml" />
+        <option value="$PROJECT_DIR$/../Spring_Annocation_TX/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring_XML_TX/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring_Annocation_TX/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring_Absolute_Annocation_TX/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring_Abs_Annocation_TX/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_13" default="false" project-jdk-name="11.0.5" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

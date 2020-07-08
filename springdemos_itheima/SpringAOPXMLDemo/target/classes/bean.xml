@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:conponet="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       https://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/aop
+       https://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <!--配置dao-->
+    <bean id="accountDao" class="com.example.dao.impl.AccountDAOImpl">
+        <property name="runner" ref="runner"></property>
+    </bean>
+    <!--配置Service-->
+    <bean id="accountService" class="com.example.service.impl.AccountServiceImpl">
+        <property name="accountDAO" ref="accountDao"></property>
+    </bean>
+    <!--配置Logger类-->
+    <bean id="logger" class="com.example.util.Logger"></bean>
+    <!--配置AOP-->
+    <aop:config>
+        <!--配置切面-->
+        <!--
+             配置切入点表达式：
+                1.id属性作为唯一标识，expression用于指定表达式内容
+                2.此标签写在<aop:aspect ...>内部就只能用于当前切面使用，写在<aop:aspect ...>外部就变成了所有切面可用
+        -->
+        <aop:pointcut id="pt1" expression="execution(* com.example.service.impl.*.*(..))"/>
+        <aop:aspect id="logAdvice" ref="logger">
+            <!-- 配置通知的类型，并且建立通知方法和切入点方法的关联-->
+            <!-- 配置前置通知：切入点方法执行之前执行-->
+<!--            <aop:before method="beforePrintlog" pointcut-ref="pt1"></aop:before>-->
+<!--            &lt;!&ndash; 配置后置通知：切入点方法执行之后执行&ndash;&gt;-->
+<!--            <aop:after-returning method="afterReturningPrintlog" pointcut-ref="pt1"></aop:after-returning>-->
+<!--            &lt;!&ndash; 配置异常通知：切入点方法发生异常执行&ndash;&gt;-->
+<!--            <aop:after-throwing method="afterThrowingPrintlog" pointcut-ref="pt1"></aop:after-throwing>-->
+<!--            &lt;!&ndash; 配置最终通知：无论切入点方法是否有异常都会执行&ndash;&gt;-->
+<!--            <aop:after method="afterPrintlog" pointcut-ref="pt1"></aop:after>-->
+            <aop:around method="aroundPrintlog" pointcut-ref="pt1"></aop:around>
+        </aop:aspect>
+    </aop:config>
+    <!--配置dbutils QueryRunner -->
+    <!--多个Dao对象调用 QueryRunner 可能会导致线程冲突，不安全，所以设置成多例-->
+    <bean id="runner" class="org.apache.commons.dbutils.QueryRunner" scope="prototype">
+        <!-- 注入数据源 -->
+        <!--<constructor-arg name="ds" ref="dataSource"></constructor-arg>-->
+    </bean>
+    <!--导入db配置文件-->
+    <conponet:property-placeholder location="db.properties"/>
+    <!--配置c3p0数据源 -->
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <!--注入数据源 -->
+        <property name="driverClass" value="${jdbc.driver}"/>
+        <property name="jdbcUrl" value="${jdbc.url}"/>
+        <property name="user" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
+    </bean>
+
+</beans>

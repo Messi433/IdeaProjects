@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org/DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.employee.mapper.DeptMapper">
+	<resultMap type="com.employee.po.Dept" id="dept">
+		<result column="deptno" property="deptno"/>
+		<result column="deptname" property="deptname"/>
+	</resultMap>
+	<select id="findAll" resultMap="dept" parameterType="com.employee.po.Dept">
+	select * from dept
+	</select>
+	<insert id="addDept" parameterType="com.employee.po.Dept">
+	insert into dept(deptname) values(#{deptname})
+    </insert>
+    <delete id="delDept" parameterType="java.lang.Integer">
+		delete from dept where deptno = #{deptno}
+	</delete>
+	<select id="getDept" resultMap="dept" parameterType="java.lang.Integer">
+		select * from dept left join employee on dept.deptno = employee.deptno where employee.deptno=#{deptno}
+	</select>
+    <update id="updateDept" parameterType="com.employee.po.Dept">
+    update dept set deptname = #{deptname} where deptno = #{deptno}
+    </update>
+   <select id="findDept" resultMap="dept" parameterType="java.lang.Integer">
+     select * from dept where deptno = #{deptno}
+   </select>
+</mapper>

@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="81dfea96-deaa-4b60-921f-dc220aae889e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../MybatisDemos_itHeima/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collections_demos/net_demos.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/multithread_demo/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net_demos/net_demos.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net_demos/src/tcp/bs_demo/BSServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net_demos/src/tcp/demo/TCPClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net_demos/src/tcp/demo/TCPServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net_demos/src/tcp/fileupload/FileTCPClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net_demos/src/tcp/fileupload/FileTCPServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net_demos/web/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_demos/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_demos/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_demos/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_demos/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_demos/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_demos/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_demos/jvm_demos.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_demos/src/part1/Demo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_demos/src/part1/Demo5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_demos/src/part1/Demo6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_demos/src/part1/Demo8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__org_assertj_assertj_core_3_13_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_18_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__org_junit_vintage_junit_vintage_engine_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__org_mockito_mockito_core_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__org_mybatis_mybatis_3_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__org_springframework_spring_aop_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__org_springframework_spring_beans_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__org_springframework_spring_context_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__org_springframework_spring_core_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__org_springframework_spring_expression_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__org_springframework_spring_test_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__org_springframework_spring_tx_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__org_springframework_spring_web_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud_demos/.idea/springcloud_demos.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud_demos/springcloud_demo/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MybatisDemos_itHeima/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MybatisDemos_itHeima/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collections_demos/src/HashSetTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/collections_demos/src/HashSetTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/collections_demos/META-INF/collections_demos.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/file_io_demos/META-INF/file_io_demos.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/file_io_demos/file/FileAPI_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/file_io_demos/file/FileAPI_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/file_io_demos/file/FileAPI_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/file_io_demos/file/FileAPI_4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/file_io_demos/file/FileForeach.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/file_io_demos/file/GenerateFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/multithread_demo/META-INF/multithread_demo.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/multithread_demo/anonymous/AnonymousInner$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/multithread_demo/anonymous/AnonymousInner$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/multithread_demo/anonymous/AnonymousInner$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/multithread_demo/anonymous/AnonymousInner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/multithread_demo/runnable/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/multithread_demo/runnable/MyRunnable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/multithread_demo/synchronize/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/multithread_demo/synchronize/LockObj.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/multithread_demo/synchronize/Ticket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/multithread_demo/thread/App1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/multithread_demo/thread/App2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/multithread_demo/thread/MyThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/multithread_demo/thread/MyThread2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/multithread_demo/threadcondition/WaitingTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/multithread_demo/threadcondition/WaitingTest$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/multithread_demo/threadcondition/WaitingTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/reflect_demo/com/example/ReflectDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/reflect_demo/com/example/ReflectDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/reflect_demo/com/example/ReflectDemo3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/reflect_demo/com/example/ReflectDemo4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/reflect_demo/com/example/ReflectDemoFrameWork.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/reflect_demo/com/example/domain/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/reflect_demo/com/example/pro.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaweb_demos/Servlet_demo/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaweb_demos/Servlet_demo/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaweb_demos/Servlet_demo/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaweb_demos/Servlet_demo/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaweb_demos/Servlet_demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaweb_demos/Servlet_demo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/springboot_mybatis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../springbootdemos_itheima/springboot_mybatis/springboot_mybatis.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud_demos/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud_demos/.idea/misc.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1Xvk8o8nYrDKPkVBvvzVjw0YWm8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="tcp.fileupload" />
+      <recent name="file" />
+      <recent name="com.example" />
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="BSServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tcp.bs_demo.BSServer" />
+      <module name="net_demos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tcp.bs_demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileTCPClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tcp.fileupload.FileTCPClient" />
+      <module name="net_demos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tcp.fileupload.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileTCPServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tcp.fileupload.FileTCPServer" />
+      <module name="net_demos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tcp.fileupload.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TCPClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tcp.demo.TCPClient" />
+      <module name="net_demos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tcp.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="collections_demos" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.BSServer" />
+      <item itemvalue="Application.FileTCPClient" />
+      <item itemvalue="Application.FileTCPServer" />
+      <item itemvalue="Application.TCPClient" />
+      <item itemvalue="Application.Test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.BSServer" />
+        <item itemvalue="Application.FileTCPClient" />
+        <item itemvalue="Application.FileTCPServer" />
+        <item itemvalue="Application.TCPClient" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="81dfea96-deaa-4b60-921f-dc220aae889e" name="Default Changelist" comment="" />
+      <created>1581933798568</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581933798568</updated>
+      <workItem from="1581933800281" duration="5026000" />
+      <workItem from="1581989421086" duration="3965000" />
+      <workItem from="1582004916662" duration="310000" />
+      <workItem from="1582124591973" duration="800000" />
+      <workItem from="1582612547073" duration="718000" />
+      <workItem from="1582635742496" duration="5000" />
+      <workItem from="1582728298031" duration="86000" />
+      <workItem from="1583122610392" duration="4390000" />
+      <workItem from="1583203744397" duration="1862000" />
+      <workItem from="1583242152492" duration="2134000" />
+      <workItem from="1583290477824" duration="1604000" />
+      <workItem from="1583305642652" duration="5202000" />
+      <workItem from="1586246676242" duration="2882000" />
+      <workItem from="1586251148873" duration="2888000" />
+      <workItem from="1586309020035" duration="3302000" />
+      <workItem from="1586315495517" duration="4222000" />
+      <workItem from="1586343705531" duration="258000" />
+      <workItem from="1586478677568" duration="232000" />
+      <workItem from="1586863352135" duration="1199000" />
+      <workItem from="1587092849597" duration="2000" />
+      <workItem from="1587435979217" duration="32000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="320" y="50" key="#Project_Structure" timestamp="1583242166408">
+      <screen x="0" y="23" width="1440" height="726" />
+    </state>
+    <state x="320" y="50" key="#Project_Structure/0.23.1440.726@0.23.1440.726" timestamp="1583242166408" />
+    <state x="184" y="51" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586873680809">
+      <screen x="0" y="23" width="1440" height="733" />
+    </state>
+    <state x="184" y="51" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.733@0.23.1440.733" timestamp="1586873680809" />
+    <state x="444" y="194" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581999055983">
+      <screen x="0" y="23" width="1440" height="724" />
+    </state>
+    <state x="444" y="194" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.724@0.23.1440.724" timestamp="1581999055983" />
+    <state x="533" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1583308213297">
+      <screen x="0" y="23" width="1440" height="726" />
+    </state>
+    <state x="533" y="79" key="#com.intellij.ide.util.MemberChooser/0.23.1440.724@0.23.1440.724" timestamp="1581989815631" />
+    <state x="533" y="79" key="#com.intellij.ide.util.MemberChooser/0.23.1440.726@0.23.1440.726" timestamp="1583308213297" />
+    <state x="311" y="322" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1586255411303">
+      <screen x="0" y="23" width="1440" height="736" />
+    </state>
+    <state x="311" y="322" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.736@0.23.1440.736" timestamp="1586255411303" />
+    <state width="1398" height="192" key="GridCell.Tab.0.bottom" timestamp="1586877111194">
+      <screen x="0" y="23" width="1440" height="733" />
+    </state>
+    <state width="1398" height="223" key="GridCell.Tab.0.bottom/0.23.1440.724@0.23.1440.724" timestamp="1582004888095" />
+    <state width="1398" height="224" key="GridCell.Tab.0.bottom/0.23.1440.726@0.23.1440.726" timestamp="1583315606472" />
+    <state width="1398" height="212" key="GridCell.Tab.0.bottom/0.23.1440.731@0.23.1440.731" timestamp="1583314571949" />
+    <state width="1398" height="192" key="GridCell.Tab.0.bottom/0.23.1440.733@0.23.1440.733" timestamp="1586877111194" />
+    <state width="1398" height="226" key="GridCell.Tab.0.bottom/0.23.1440.735@0.23.1440.735" timestamp="1586342721550" />
+    <state width="1398" height="148" key="GridCell.Tab.0.bottom/0.23.1440.736@0.23.1440.736" timestamp="1586315351715" />
+    <state width="1398" height="192" key="GridCell.Tab.0.center" timestamp="1586877111192">
+      <screen x="0" y="23" width="1440" height="733" />
+    </state>
+    <state width="1398" height="223" key="GridCell.Tab.0.center/0.23.1440.724@0.23.1440.724" timestamp="1582004888095" />
+    <state width="1398" height="224" key="GridCell.Tab.0.center/0.23.1440.726@0.23.1440.726" timestamp="1583315606472" />
+    <state width="1398" height="212" key="GridCell.Tab.0.center/0.23.1440.731@0.23.1440.731" timestamp="1583314571948" />
+    <state width="1398" height="192" key="GridCell.Tab.0.center/0.23.1440.733@0.23.1440.733" timestamp="1586877111192" />
+    <state width="1398" height="226" key="GridCell.Tab.0.center/0.23.1440.735@0.23.1440.735" timestamp="1586342721549" />
+    <state width="1398" height="148" key="GridCell.Tab.0.center/0.23.1440.736@0.23.1440.736" timestamp="1586315351714" />
+    <state width="1398" height="192" key="GridCell.Tab.0.left" timestamp="1586877111191">
+      <screen x="0" y="23" width="1440" height="733" />
+    </state>
+    <state width="1398" height="223" key="GridCell.Tab.0.left/0.23.1440.724@0.23.1440.724" timestamp="1582004888095" />
+    <state width="1398" height="224" key="GridCell.Tab.0.left/0.23.1440.726@0.23.1440.726" timestamp="1583315606471" />
+    <state width="1398" height="212" key="GridCell.Tab.0.left/0.23.1440.731@0.23.1440.731" timestamp="1583314571947" />
+    <state width="1398" height="192" key="GridCell.Tab.0.left/0.23.1440.733@0.23.1440.733" timestamp="1586877111191" />
+    <state width="1398" height="226" key="GridCell.Tab.0.left/0.23.1440.735@0.23.1440.735" timestamp="1586342721549" />
+    <state width="1398" height="148" key="GridCell.Tab.0.left/0.23.1440.736@0.23.1440.736" timestamp="1586315351714" />
+    <state width="1398" height="192" key="GridCell.Tab.0.right" timestamp="1586877111193">
+      <screen x="0" y="23" width="1440" height="733" />
+    </state>
+    <state width="1398" height="223" key="GridCell.Tab.0.right/0.23.1440.724@0.23.1440.724" timestamp="1582004888095" />
+    <state width="1398" height="224" key="GridCell.Tab.0.right/0.23.1440.726@0.23.1440.726" timestamp="1583315606472" />
+    <state width="1398" height="212" key="GridCell.Tab.0.right/0.23.1440.731@0.23.1440.731" timestamp="1583314571948" />
+    <state width="1398" height="192" key="GridCell.Tab.0.right/0.23.1440.733@0.23.1440.733" timestamp="1586877111193" />
+    <state width="1398" height="226" key="GridCell.Tab.0.right/0.23.1440.735@0.23.1440.735" timestamp="1586342721550" />
+    <state width="1398" height="148" key="GridCell.Tab.0.right/0.23.1440.736@0.23.1440.736" timestamp="1586315351715" />
+    <state width="1398" height="226" key="GridCell.Tab.1.bottom" timestamp="1586342721551">
+      <screen x="0" y="23" width="1440" height="735" />
+    </state>
+    <state width="1398" height="223" key="GridCell.Tab.1.bottom/0.23.1440.724@0.23.1440.724" timestamp="1582004888096" />
+    <state width="1398" height="224" key="GridCell.Tab.1.bottom/0.23.1440.726@0.23.1440.726" timestamp="1583315606473" />
+    <state width="1398" height="224" key="GridCell.Tab.1.bottom/0.23.1440.731@0.23.1440.731" timestamp="1583314514924" />
+    <state width="1398" height="226" key="GridCell.Tab.1.bottom/0.23.1440.733@0.23.1440.733" timestamp="1586342081930" />
+    <state width="1398" height="226" key="GridCell.Tab.1.bottom/0.23.1440.735@0.23.1440.735" timestamp="1586342721551" />
+    <state width="1398" height="226" key="GridCell.Tab.1.bottom/0.23.1440.736@0.23.1440.736" timestamp="1586315341490" />
+    <state width="1398" height="226" key="GridCell.Tab.1.center" timestamp="1586342721551">
+      <screen x="0" y="23" width="1440" height="735" />
+    </state>
+    <state width="1398" height="223" key="GridCell.Tab.1.center/0.23.1440.724@0.23.1440.724" timestamp="1582004888096" />
+    <state width="1398" height="224" key="GridCell.Tab.1.center/0.23.1440.726@0.23.1440.726" timestamp="1583315606473" />
+    <state width="1398" height="224" key="GridCell.Tab.1.center/0.23.1440.731@0.23.1440.731" timestamp="1583314514922" />
+    <state width="1398" height="226" key="GridCell.Tab.1.center/0.23.1440.733@0.23.1440.733" timestamp="1586342081930" />
+    <state width="1398" height="226" key="GridCell.Tab.1.center/0.23.1440.735@0.23.1440.735" timestamp="1586342721551" />
+    <state width="1398" height="226" key="GridCell.Tab.1.center/0.23.1440.736@0.23.1440.736" timestamp="1586315341489" />
+    <state width="1398" height="226" key="GridCell.Tab.1.left" timestamp="1586342721550">
+      <screen x="0" y="23" width="1440" height="735" />
+    </state>
+    <state width="1398" height="223" key="GridCell.Tab.1.left/0.23.1440.724@0.23.1440.724" timestamp="1582004888096" />
+    <state width="1398" height="224" key="GridCell.Tab.1.left/0.23.1440.726@0.23.1440.726" timestamp="1583315606473" />
+    <state width="1398" height="224" key="GridCell.Tab.1.left/0.23.1440.731@0.23.1440.731" timestamp="1583314514922" />
+    <state width="1398" height="226" key="GridCell.Tab.1.left/0.23.1440.733@0.23.1440.733" timestamp="1586342081929" />
+    <state width="1398" height="226" key="GridCell.Tab.1.left/0.23.1440.735@0.23.1440.735" timestamp="1586342721550" />
+    <state width="1398" height="226" key="GridCell.Tab.1.left/0.23.1440.736@0.23.1440.736" timestamp="1586315341489" />
+    <state width="1398" height="226" key="GridCell.Tab.1.right" timestamp="1586342721551">
+      <screen x="0" y="23" width="1440" height="735" />
+    </state>
+    <state width="1398" height="223" key="GridCell.Tab.1.right/0.23.1440.724@0.23.1440.724" timestamp="1582004888096" />
+    <state width="1398" height="224" key="GridCell.Tab.1.right/0.23.1440.726@0.23.1440.726" timestamp="1583315606473" />
+    <state width="1398" height="224" key="GridCell.Tab.1.right/0.23.1440.731@0.23.1440.731" timestamp="1583314514923" />
+    <state width="1398" height="226" key="GridCell.Tab.1.right/0.23.1440.733@0.23.1440.733" timestamp="1586342081930" />
+    <state width="1398" height="226" key="GridCell.Tab.1.right/0.23.1440.735@0.23.1440.735" timestamp="1586342721551" />
+    <state width="1398" height="226" key="GridCell.Tab.1.right/0.23.1440.736@0.23.1440.736" timestamp="1586315341490" />
+    <state x="357" y="92" key="NewModule_or_Project.wizard" timestamp="1586248262855">
+      <screen x="0" y="23" width="1440" height="736" />
+    </state>
+    <state x="357" y="91" key="NewModule_or_Project.wizard/0.23.1440.726@0.23.1440.726" timestamp="1583211031327" />
+    <state x="357" y="92" key="NewModule_or_Project.wizard/0.23.1440.736@0.23.1440.736" timestamp="1586248262855" />
+    <state x="208" y="23" key="SettingsEditor" timestamp="1587435985262">
+      <screen x="0" y="23" width="1440" height="733" />
+    </state>
+    <state x="208" y="23" key="SettingsEditor/0.23.1440.724@0.23.1440.724" timestamp="1581989471233" />
+    <state x="208" y="23" key="SettingsEditor/0.23.1440.726@0.23.1440.726" timestamp="1583311654392" />
+    <state x="208" y="23" key="SettingsEditor/0.23.1440.733@0.23.1440.733" timestamp="1587435985262" />
+    <state x="208" y="23" key="SettingsEditor/0.23.1440.736@0.23.1440.736" timestamp="1586248302107" />
+    <state x="384" y="221" key="com.intellij.ide.util.TipDialog" timestamp="1587092849512">
+      <screen x="0" y="23" width="1440" height="733" />
+    </state>
+    <state x="384" y="218" key="com.intellij.ide.util.TipDialog/0.23.1440.724@0.23.1440.724" timestamp="1582124592204" />
+    <state x="384" y="219" key="com.intellij.ide.util.TipDialog/0.23.1440.726@0.23.1440.726" timestamp="1583307331531" />
+    <state x="384" y="220" key="com.intellij.ide.util.TipDialog/0.23.1440.731@0.23.1440.731" timestamp="1582612835613" />
+    <state x="384" y="221" key="com.intellij.ide.util.TipDialog/0.23.1440.733@0.23.1440.733" timestamp="1587092849512" />
+    <state x="384" y="222" key="com.intellij.ide.util.TipDialog/0.23.1440.735@0.23.1440.735" timestamp="1586478677984" />
+    <state x="517" y="314" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586338463188">
+      <screen x="0" y="23" width="1440" height="733" />
+    </state>
+    <state x="517" y="314" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.733@0.23.1440.733" timestamp="1586338463188" />
+    <state x="185" y="23" key="new project wizard" timestamp="1586248298064">
+      <screen x="0" y="23" width="1440" height="736" />
+    </state>
+    <state x="97" y="23" key="new project wizard/0.23.1440.724@0.23.1440.724" timestamp="1581989468882" />
+    <state x="97" y="23" key="new project wizard/0.23.1440.726@0.23.1440.726" timestamp="1583311652100" />
+    <state x="185" y="23" key="new project wizard/0.23.1440.736@0.23.1440.736" timestamp="1586248298064" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/multithread_demo/src/threadcondition/WaitingTest.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/multithread_demo/src/threadcondition/WaitingTest.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/file_io_demos/src/file/FileAPI_4.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

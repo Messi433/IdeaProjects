@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- 纯xml的 bean配置-->
+    <!-- 配置Service-->
+    <bean id="mobileService" class="com.example.service.impl.MobileServiceImpl">
+        <!-- 注入DAO-->
+        <property name="mobileDAO" ref="mobileDAO"></property>
+    </bean>
+    <!-- 配置Dao-->
+    <bean id="mobileDAO" class="com.example.dao.impl.MobileDAOImpl">
+        <!--注入QueryRunner -->
+        <property name="runner" ref="runner"></property>
+    </bean>
+
+    <!--配置dbutils QueryRunner -->
+    <!--多个Dao对象调用 QueryRunner 可能会导致线程冲突，不安全，所以设置成多例-->
+    <bean id="runner" class="org.apache.commons.dbutils.QueryRunner" scope="prototype">
+        <!-- 注入数据源 -->
+        <constructor-arg name="ds" ref="dataSource"></constructor-arg>
+    </bean>
+
+    <!--配置c3p0数据源 -->
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <!--注入数据源 -->
+        <property name="driverClass" value="com.mysql.jdbc.Driver"/>
+        <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/javastudy"/>
+        <property name="user" value="root"/>
+        <property name="password" value="k753951"/>
+    </bean>
+
+    <!-- 配置dbcp数据源-->
+    <!--    <bean id="dataSoruce3" class="org.apache.commons.dbcp2.BasicDataSource">-->
+    <!--        &lt;!&ndash; &ndash;&gt;-->
+    <!--    </bean>-->
+
+</beans>

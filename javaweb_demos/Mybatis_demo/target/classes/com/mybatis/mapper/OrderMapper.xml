@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.mybatis.mapper.OrderMapper">
+    <resultMap id="orderResultMap" type="order">
+        <!--
+        定义主键,如果是多个字段则定义多个id
+        property pojo的属性名
+        column sql的字段值
+        -->
+        <id property="id" column="ids"/>
+        <!--result普通属性-->
+        <result property="oid" column="oids"/>
+        <result property="name" column="names"/>
+    </resultMap>
+    <select id="queryOrderAll" resultType="order" resultMap="orderResultMap">
+        select * from `order`
+    </select>
+    <select id="queryOrderUser" resultType="orderUser">
+        select o.id,o.user_id,o.note,o.order_number,u.id,u.username from `order` o left join `user` u on u.id =o.user_id
+    </select>
+    <resultMap id="order_user" type="order">
+        <id property="id" column="id"/>
+        <result property="user_id" column="user_id"/>
+        <result property="order_number" column="order_number"/>
+        <result property="note" column="note"/>
+        <!--
+            association: 配置一对一属性
+            property:User属性名
+            javaType:属性类型(类全名/别名)
+        -->
+        <association property="user" javaType="user">
+            <id property="id" column="user_id"/>
+            <result property="username" column="username"/>
+            <result property="password" column="password"/>
+        </association>
+    </resultMap>
+    <select id="queryOrderUserByResultMap" resultType="order" resultMap="order_user">
+        select o.id,o.user_id,o.note,o.order_number,u.id,u.username,u.password from `order` o left join `user` u on u.id =o.user_id
+    </select>
+
+    <resultMap id="user_order" type="user">
+        <id property="id" column="id"/>
+        <result property="username" column="username"/>
+        <result property="password" column="password"/>
+        <result property="order_id" column="order_id"/>
+        <!--
+          collection: 配置一对多属性
+          property:OrderList属性名
+          javaType:对象属性类型(类全名/别名)
+          ofType:集合中对象的类型
+      -->
+        <collection property="orderList" ofType="order" >
+            <id property="id" column="oid"/>
+            <result property="user_id" column="user_id"/>
+            <result property="order_number" column="order_number"/>
+            <result property="note" column="note"/>
+        </collection>
+    </resultMap>
+    <select id="queryUserOrderByResultMap" resultType="user" resultMap="user_order">
+        select u.id,u.username,u.password,u.order_id,o.id oid,o.user_id,o.note,o.order_number from `user` u left join `order`o on u.order_id=o.id;
+    </select>
+
+</mapper>

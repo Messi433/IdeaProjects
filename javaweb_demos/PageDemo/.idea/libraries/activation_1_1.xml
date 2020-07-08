@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="activation-1.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/JavaEE 7.0/activation-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/JavaEE 7.0/javaee-api-7.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/JavaEE 7.0/javax.mail-1.5.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/JSTL1.2.2/javax.servlet.jsp.jstl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/JSTL1.2.2/jstl-impl.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

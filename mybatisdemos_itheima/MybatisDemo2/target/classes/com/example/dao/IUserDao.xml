@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.example.dao.IUserDao">
+    <!--一个User对应多个Account的封装-->
+    <resultMap id="userMap" type="user">
+        <id property="id" column="id"></id>
+        <result property="username" column="username"></result>
+        <result property="address" column="address"></result>
+        <result property="birthday" column="birthday"></result>
+        <result property="sex" column="sex"></result>
+        <!-- 一个User对应一个accounts集合下，实体类Account的封装-->
+        <collection property="accounts" ofType="account"> <!--ofType="com.example.domain.account"-->
+            <id property="id" column="aid"></id>
+            <result property="uid" column="uid"></result>
+            <result property="money" column="money"></result>
+        </collection>
+    </resultMap>
+    <select id="findAll" resultMap="userMap">
+        select u.*,a.id as aid,a.money,a.uid from user u left outer join account a on u.id = a.uid
+    </select>
+    <!--id Dao中的方法名；parameterType：参数类型 resultType：封装的实体类-->
+    <select id="findById" parameterType="int" resultType="User">
+        select * from user where id =#{uid};
+    </select>
+
+
+
+</mapper>

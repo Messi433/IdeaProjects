@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SpringAOPAccountDemo/SpringAOPAccountDemo.iml" filepath="$PROJECT_DIR$/SpringAOPAccountDemo/SpringAOPAccountDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringAOPAnnocationDemo/SpringAOPAnnocationDemo.iml" filepath="$PROJECT_DIR$/SpringAOPAnnocationDemo/SpringAOPAnnocationDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringAOPProxyDemo/SpringAOPProxyDemo.iml" filepath="$PROJECT_DIR$/SpringAOPProxyDemo/SpringAOPProxyDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringAOPXMLDemo/SpringAOPXMLDemo.iml" filepath="$PROJECT_DIR$/SpringAOPXMLDemo/SpringAOPXMLDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringDemo1/SpringDemo1.iml" filepath="$PROJECT_DIR$/SpringDemo1/SpringDemo1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringJDBCTemplate/SpringJDBCTemplate.iml" filepath="$PROJECT_DIR$/SpringJDBCTemplate/SpringJDBCTemplate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring_Abs_Annocation_TX/Spring_Abs_Annocation_TX.iml" filepath="$PROJECT_DIR$/Spring_Abs_Annocation_TX/Spring_Abs_Annocation_TX.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring_Annocation_IOC_Demo/Spring_Annocation_IOC_Demo.iml" filepath="$PROJECT_DIR$/Spring_Annocation_IOC_Demo/Spring_Annocation_IOC_Demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring_Annocation_TX/Spring_Annocation_TX.iml" filepath="$PROJECT_DIR$/Spring_Annocation_TX/Spring_Annocation_TX.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring_XML_IOC_Demo/Spring_XML_IOC_Demo.iml" filepath="$PROJECT_DIR$/Spring_XML_IOC_Demo/Spring_XML_IOC_Demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring_XML_TX/Spring_XML_TX.iml" filepath="$PROJECT_DIR$/Spring_XML_TX/Spring_XML_TX.iml" />
+    </modules>
+  </component>
+</project>

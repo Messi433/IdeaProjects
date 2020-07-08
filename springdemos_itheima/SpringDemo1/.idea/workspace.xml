@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ec2d30e0-d301-4e1c-92fd-2c1f33fe5b28" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="spring-beans.schema" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WSztBuET3yl0F4DhKWjWCVIGT8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.41864267" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ckzh1\IdeaProjects\SSMTest" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.dao.impl" />
+      <recent name="java.com.example" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ckzh1\IdeaProjects\SSMTest\src\test" />
+      <recent name="C:\Users\ckzh1\IdeaProjects\SSMTest\src\main\java\com\example" />
+      <recent name="C:\Users\ckzh1\IdeaProjects\SSMTest\src\main" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Xml_Ioc_Test">
+    <configuration name="Xml_Ioc_Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.test.Xml_Ioc_Test" />
+      <module name="SpringDemo1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IOC_Test_1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringDemo1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.test" />
+      <option name="MAIN_CLASS_NAME" value="com.example.test.IOC_Test_1" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IOC_Test_1.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringDemo1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.test" />
+      <option name="MAIN_CLASS_NAME" value="com.example.test.IOC_Test_1" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Xml_Ioc_Test" />
+        <item itemvalue="JUnit.IOC_Test_1.test" />
+        <item itemvalue="JUnit.IOC_Test_1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ec2d30e0-d301-4e1c-92fd-2c1f33fe5b28" name="Default Changelist" comment="" />
+      <created>1577430926759</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577430926759</updated>
+      <workItem from="1577430932379" duration="3350000" />
+      <workItem from="1577667910944" duration="6807000" />
+      <workItem from="1577683947795" duration="5152000" />
+      <workItem from="1577754414739" duration="3907000" />
+      <workItem from="1577926918679" duration="1935000" />
+      <workItem from="1577943290953" duration="6394000" />
+      <workItem from="1578012489890" duration="2137000" />
+      <workItem from="1578029315231" duration="2783000" />
+      <workItem from="1578040233921" duration="1557000" />
+      <workItem from="1578128237261" duration="4763000" />
+      <workItem from="1578212113015" duration="363000" />
+      <workItem from="1578231600693" duration="760000" />
+      <workItem from="1578232397542" duration="303000" />
+      <workItem from="1578270789496" duration="6921000" />
+      <workItem from="1578282374557" duration="7000" />
+      <workItem from="1578288427890" duration="4072000" />
+      <workItem from="1578296378696" duration="2057000" />
+      <workItem from="1578357835409" duration="269000" />
+      <workItem from="1578377513759" duration="490000" />
+      <workItem from="1578378018129" duration="684000" />
+      <workItem from="1578446465707" duration="173000" />
+      <workItem from="1578621529688" duration="576000" />
+      <workItem from="1579158004390" duration="744000" />
+      <workItem from="1579158798594" duration="383000" />
+      <workItem from="1579159721605" duration="51000" />
+      <workItem from="1579161636456" duration="785000" />
+      <workItem from="1579183674282" duration="1738000" />
+      <workItem from="1579222595088" duration="642000" />
+      <workItem from="1579270349406" duration="151000" />
+      <workItem from="1579577278931" duration="99000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="IOC_Test_1 - 2020.01.06 at 10h 04m 58s.xml">
+      <configuration name="IOC_Test_1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IOC_Test_1_test - 2020.01.06 at 10h 14m 51s.xml">
+      <configuration name="IOC_Test_1.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IOC_Test_1_test - 2020.01.06 at 10h 53m 06s.xml">
+      <configuration name="IOC_Test_1.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IOC_Test_1_test - 2020.01.06 at 10h 54m 45s.xml">
+      <configuration name="IOC_Test_1.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IOC_Test_1_test - 2020.01.06 at 10h 55m 41s.xml">
+      <configuration name="IOC_Test_1.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IOC_Test_1_test - 2020.01.06 at 14h 07m 33s.xml">
+      <configuration name="IOC_Test_1.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IOC_Test_1_test - 2020.01.06 at 14h 10m 43s.xml">
+      <configuration name="IOC_Test_1.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IOC_Test_1_test - 2020.01.06 at 14h 11m 27s.xml">
+      <configuration name="IOC_Test_1.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IOC_Test_1_test - 2020.01.06 at 14h 12m 42s.xml">
+      <configuration name="IOC_Test_1.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IOC_Test_1_test - 2020.01.06 at 14h 21m 18s.xml">
+      <configuration name="IOC_Test_1.test" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="320" y="49" key="#Notifications" timestamp="1579158825524">
+      <screen x="0" y="23" width="1440" height="722" />
+    </state>
+    <state x="320" y="49" key="#Notifications/0.23.1440.722@0.23.1440.722" timestamp="1579158825524" />
+    <state x="382" y="55" key="#Project_Structure" timestamp="1579577355231">
+      <screen x="0" y="23" width="1440" height="719" />
+    </state>
+    <state x="382" y="55" key="#Project_Structure/0.23.1440.719@0.23.1440.719" timestamp="1579577355231" />
+    <state x="382" y="55" key="#Project_Structure/0.23.1440.722@0.23.1440.722" timestamp="1579158860970" />
+    <state x="184" y="45" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579185067719">
+      <screen x="0" y="23" width="1440" height="721" />
+    </state>
+    <state x="184" y="45" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.718@0.23.1440.718" timestamp="1579158090047" />
+    <state x="184" y="45" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.721@0.23.1440.721" timestamp="1579185067719" />
+    <state x="389" y="119" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1579184559330">
+      <screen x="0" y="23" width="1440" height="721" />
+    </state>
+    <state x="389" y="119" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.23.1440.721@0.23.1440.721" timestamp="1579184559330" />
+    <state x="364" y="126" key="DetectedRootsChooserDialog" timestamp="1579184450490">
+      <screen x="0" y="23" width="1440" height="721" />
+    </state>
+    <state x="364" y="126" key="DetectedRootsChooserDialog/0.23.1440.721@0.23.1440.721" timestamp="1579184450490" />
+    <state x="258" y="25" key="Maven.ArtifactSearchDialog" timestamp="1579183723645">
+      <screen x="0" y="0" width="1440" height="810" />
+    </state>
+    <state x="258" y="25" key="Maven.ArtifactSearchDialog/0.0.1440.810@0.0.1440.810" timestamp="1579183723645" />
+    <state x="258" y="45" key="Maven.ArtifactSearchDialog/0.23.1440.722@0.23.1440.722" timestamp="1579164732128" />
+    <state x="219" y="144" key="NewModule_or_Project.wizard" timestamp="1579184265955">
+      <screen x="0" y="23" width="1440" height="721" />
+    </state>
+    <state x="219" y="144" key="NewModule_or_Project.wizard/0.23.1440.721@0.23.1440.721" timestamp="1579184265955" />
+    <state x="269" y="23" width="982" height="718" key="SettingsEditor" timestamp="1579222961594">
+      <screen x="0" y="23" width="1440" height="716" />
+    </state>
+    <state x="0" y="0" width="1440" height="810" key="SettingsEditor/0.0.1440.810@0.0.1440.810" timestamp="1579183749809" />
+    <state x="269" y="23" key="SettingsEditor/0.23.1440.716@0.23.1440.716" timestamp="1579222961594" />
+    <state x="269" y="23" width="982" height="718" key="SettingsEditor/0.23.1440.718@0.23.1440.718" timestamp="1579222754963" />
+    <state x="245" y="23" width="982" height="721" key="SettingsEditor/0.23.1440.721@0.23.1440.721" timestamp="1579185558279" />
+    <state x="0" y="23" width="1440" height="722" key="SettingsEditor/0.23.1440.722@0.23.1440.722" timestamp="1579159172855" />
+    <state x="384" y="216" key="com.intellij.ide.util.TipDialog" timestamp="1579222594909">
+      <screen x="0" y="23" width="1440" height="718" />
+    </state>
+    <state x="384" y="216" key="com.intellij.ide.util.TipDialog/0.23.1440.718@0.23.1440.718" timestamp="1579222594908" />
+    <state x="384" y="217" key="com.intellij.ide.util.TipDialog/0.23.1440.721@0.23.1440.721" timestamp="1579159721905" />
+    <state x="384" y="217" key="com.intellij.ide.util.TipDialog/0.23.1440.722@0.23.1440.722" timestamp="1579158799044" />
+    <state x="424" y="286" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1579222677482">
+      <screen x="0" y="23" width="1440" height="718" />
+    </state>
+    <state x="423" y="296" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1440.810@0.0.1440.810" timestamp="1579183742986" />
+    <state x="424" y="286" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.23.1440.718@0.23.1440.718" timestamp="1579222677482" />
+    <state x="424" y="287" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.23.1440.721@0.23.1440.721" timestamp="1579185478051" />
+    <state x="424" y="287" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.23.1440.722@0.23.1440.722" timestamp="1579159167240" />
+    <state x="444" y="23" width="789" height="721" key="find.popup" timestamp="1579184788110">
+      <screen x="0" y="23" width="1440" height="721" />
+    </state>
+    <state x="444" y="23" width="789" height="721" key="find.popup/0.23.1440.721@0.23.1440.721" timestamp="1579184788110" />
+    <state x="119" y="138" key="new project wizard" timestamp="1579184147669">
+      <screen x="0" y="23" width="1440" height="721" />
+    </state>
+    <state x="119" y="138" key="new project wizard/0.23.1440.721@0.23.1440.721" timestamp="1579184147669" />
+    <state x="470" y="83" key="spring file set editor" timestamp="1579158859379">
+      <screen x="0" y="23" width="1440" height="722" />
+    </state>
+    <state x="470" y="83" key="spring file set editor/0.23.1440.722@0.23.1440.722" timestamp="1579158859379" />
+  </component>
+</project>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- 纯xml的 bean配置-->
+    <bean id="mobile" class="com.com.example.example.entity.Mobile">
+        <property name="id" value="1"></property>
+        <property name="name" value="huawei"></property>
+    </bean>
+    <!-- 配置Service-->
+    <bean id="mobileService" class="com.com.example.example.service.impl.MobileServiceImpl">
+        <!-- 注入DAO-->
+    </bean>
+    <!-- 配置Service-->
+</beans>

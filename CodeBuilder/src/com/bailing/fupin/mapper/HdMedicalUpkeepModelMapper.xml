@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bailing.fupin.mapper.HdMedicalUpkeepModelMapper">
+  <resultMap id="BaseResultMap" type="com.bailing.fupin.po.HdMedicalUpkeepModel">
+    <id column="ID" jdbcType="VARCHAR" property="id" />
+    <result column="PERSONALID" jdbcType="VARCHAR" property="personalid" />
+    <result column="ORGANIZEID" jdbcType="VARCHAR" property="organizeid" />
+    <result column="MODELNAME" jdbcType="VARCHAR" property="modelname" />
+    <result column="MODELTYPE" jdbcType="VARCHAR" property="modeltype" />
+    <result column="STATUS" jdbcType="VARCHAR" property="status" />
+    <result column="FBG" jdbcType="DECIMAL" property="fbg" />
+    <result column="FBG_DL" jdbcType="DECIMAL" property="fbgDl" />
+    <result column="PRESSURE_L" jdbcType="DECIMAL" property="pressureL" />
+    <result column="PRESSURE_H" jdbcType="DECIMAL" property="pressureH" />
+    <result column="REHABILITATION_GUIDE" jdbcType="VARCHAR" property="rehabilitationGuide" />
+    <result column="NURSING_GUIDE" jdbcType="VARCHAR" property="nursingGuide" />
+    <result column="HEALTH_GUIDE" jdbcType="VARCHAR" property="healthGuide" />
+    <result column="NUTRITION_GUIDE" jdbcType="VARCHAR" property="nutritionGuide" />
+    <result column="CREATETIME" jdbcType="VARCHAR" property="createtime" />
+    <result column="CREATEORG" jdbcType="VARCHAR" property="createorg" />
+    <result column="UPDATEORG" jdbcType="VARCHAR" property="updateorg" />
+    <result column="UPDATETIME" jdbcType="VARCHAR" property="updatetime" />
+    <result column="CREATER" jdbcType="VARCHAR" property="creater" />
+    <result column="MODIFIED" jdbcType="VARCHAR" property="modified" />
+    <result column="DATA_TYPE" jdbcType="VARCHAR" property="dataType" />
+    <result column="DATA_SOURCE" jdbcType="VARCHAR" property="dataSource" />
+  </resultMap>
+  <sql id="Example_Where_Clause">
+    <where>
+      <foreach collection="oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause">
+    <where>
+      <foreach collection="example.oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List">
+    ID, PERSONALID, ORGANIZEID, MODELNAME, MODELTYPE, STATUS, FBG, FBG_DL, PRESSURE_L, 
+    PRESSURE_H, REHABILITATION_GUIDE, NURSING_GUIDE, HEALTH_GUIDE, NUTRITION_GUIDE, CREATETIME, 
+    CREATEORG, UPDATEORG, UPDATETIME, CREATER, MODIFIED, DATA_TYPE, DATA_SOURCE
+  </sql>
+  <select id="selectByExample" parameterType="com.bailing.fupin.po.HdMedicalUpkeepModelExample" resultMap="BaseResultMap">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from HD_MEDICAL_UPKEEP_MODEL
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from HD_MEDICAL_UPKEEP_MODEL
+    where ID = #{id,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String">
+    delete from HD_MEDICAL_UPKEEP_MODEL
+    where ID = #{id,jdbcType=VARCHAR}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.bailing.fupin.po.HdMedicalUpkeepModelExample">
+    delete from HD_MEDICAL_UPKEEP_MODEL
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.bailing.fupin.po.HdMedicalUpkeepModel">
+    insert into HD_MEDICAL_UPKEEP_MODEL (ID, PERSONALID, ORGANIZEID, 
+      MODELNAME, MODELTYPE, STATUS, 
+      FBG, FBG_DL, PRESSURE_L, 
+      PRESSURE_H, REHABILITATION_GUIDE, NURSING_GUIDE, 
+      HEALTH_GUIDE, NUTRITION_GUIDE, CREATETIME, 
+      CREATEORG, UPDATEORG, UPDATETIME, 
+      CREATER, MODIFIED, DATA_TYPE, 
+      DATA_SOURCE)
+    values (#{id,jdbcType=VARCHAR}, #{personalid,jdbcType=VARCHAR}, #{organizeid,jdbcType=VARCHAR}, 
+      #{modelname,jdbcType=VARCHAR}, #{modeltype,jdbcType=VARCHAR}, #{status,jdbcType=VARCHAR}, 
+      #{fbg,jdbcType=DECIMAL}, #{fbgDl,jdbcType=DECIMAL}, #{pressureL,jdbcType=DECIMAL}, 
+      #{pressureH,jdbcType=DECIMAL}, #{rehabilitationGuide,jdbcType=VARCHAR}, #{nursingGuide,jdbcType=VARCHAR}, 
+      #{healthGuide,jdbcType=VARCHAR}, #{nutritionGuide,jdbcType=VARCHAR}, #{createtime,jdbcType=VARCHAR}, 
+      #{createorg,jdbcType=VARCHAR}, #{updateorg,jdbcType=VARCHAR}, #{updatetime,jdbcType=VARCHAR}, 
+      #{creater,jdbcType=VARCHAR}, #{modified,jdbcType=VARCHAR}, #{dataType,jdbcType=VARCHAR}, 
+      #{dataSource,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.bailing.fupin.po.HdMedicalUpkeepModel">
+    insert into HD_MEDICAL_UPKEEP_MODEL
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        ID,
+      </if>
+      <if test="personalid != null">
+        PERSONALID,
+      </if>
+      <if test="organizeid != null">
+        ORGANIZEID,
+      </if>
+      <if test="modelname != null">
+        MODELNAME,
+      </if>
+      <if test="modeltype != null">
+        MODELTYPE,
+      </if>
+      <if test="status != null">
+        STATUS,
+      </if>
+      <if test="fbg != null">
+        FBG,
+      </if>
+      <if test="fbgDl != null">
+        FBG_DL,
+      </if>
+      <if test="pressureL != null">
+        PRESSURE_L,
+      </if>
+      <if test="pressureH != null">
+        PRESSURE_H,
+      </if>
+      <if test="rehabilitationGuide != null">
+        REHABILITATION_GUIDE,
+      </if>
+      <if test="nursingGuide != null">
+        NURSING_GUIDE,
+      </if>
+      <if test="healthGuide != null">
+        HEALTH_GUIDE,
+      </if>
+      <if test="nutritionGuide != null">
+        NUTRITION_GUIDE,
+      </if>
+      <if test="createtime != null">
+        CREATETIME,
+      </if>
+      <if test="createorg != null">
+        CREATEORG,
+      </if>
+      <if test="updateorg != null">
+        UPDATEORG,
+      </if>
+      <if test="updatetime != null">
+        UPDATETIME,
+      </if>
+      <if test="creater != null">
+        CREATER,
+      </if>
+      <if test="modified != null">
+        MODIFIED,
+      </if>
+      <if test="dataType != null">
+        DATA_TYPE,
+      </if>
+      <if test="dataSource != null">
+        DATA_SOURCE,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=VARCHAR},
+      </if>
+      <if test="personalid != null">
+        #{personalid,jdbcType=VARCHAR},
+      </if>
+      <if test="organizeid != null">
+        #{organizeid,jdbcType=VARCHAR},
+      </if>
+      <if test="modelname != null">
+        #{modelname,jdbcType=VARCHAR},
+      </if>
+      <if test="modeltype != null">
+        #{modeltype,jdbcType=VARCHAR},
+      </if>
+      <if test="status != null">
+        #{status,jdbcType=VARCHAR},
+      </if>
+      <if test="fbg != null">
+        #{fbg,jdbcType=DECIMAL},
+      </if>
+      <if test="fbgDl != null">
+        #{fbgDl,jdbcType=DECIMAL},
+      </if>
+      <if test="pressureL != null">
+        #{pressureL,jdbcType=DECIMAL},
+      </if>
+      <if test="pressureH != null">
+        #{pressureH,jdbcType=DECIMAL},
+      </if>
+      <if test="rehabilitationGuide != null">
+        #{rehabilitationGuide,jdbcType=VARCHAR},
+      </if>
+      <if test="nursingGuide != null">
+        #{nursingGuide,jdbcType=VARCHAR},
+      </if>
+      <if test="healthGuide != null">
+        #{healthGuide,jdbcType=VARCHAR},
+      </if>
+      <if test="nutritionGuide != null">
+        #{nutritionGuide,jdbcType=VARCHAR},
+      </if>
+      <if test="createtime != null">
+        #{createtime,jdbcType=VARCHAR},
+      </if>
+      <if test="createorg != null">
+        #{createorg,jdbcType=VARCHAR},
+      </if>
+      <if test="updateorg != null">
+        #{updateorg,jdbcType=VARCHAR},
+      </if>
+      <if test="updatetime != null">
+        #{updatetime,jdbcType=VARCHAR},
+      </if>
+      <if test="creater != null">
+        #{creater,jdbcType=VARCHAR},
+      </if>
+      <if test="modified != null">
+        #{modified,jdbcType=VARCHAR},
+      </if>
+      <if test="dataType != null">
+        #{dataType,jdbcType=VARCHAR},
+      </if>
+      <if test="dataSource != null">
+        #{dataSource,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.bailing.fupin.po.HdMedicalUpkeepModelExample" resultType="java.lang.Long">
+    select count(*) from HD_MEDICAL_UPKEEP_MODEL
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map">
+    update HD_MEDICAL_UPKEEP_MODEL
+    <set>
+      <if test="record.id != null">
+        ID = #{record.id,jdbcType=VARCHAR},
+      </if>
+      <if test="record.personalid != null">
+        PERSONALID = #{record.personalid,jdbcType=VARCHAR},
+      </if>
+      <if test="record.organizeid != null">
+        ORGANIZEID = #{record.organizeid,jdbcType=VARCHAR},
+      </if>
+      <if test="record.modelname != null">
+        MODELNAME = #{record.modelname,jdbcType=VARCHAR},
+      </if>
+      <if test="record.modeltype != null">
+        MODELTYPE = #{record.modeltype,jdbcType=VARCHAR},
+      </if>
+      <if test="record.status != null">
+        STATUS = #{record.status,jdbcType=VARCHAR},
+      </if>
+      <if test="record.fbg != null">
+        FBG = #{record.fbg,jdbcType=DECIMAL},
+      </if>
+      <if test="record.fbgDl != null">
+        FBG_DL = #{record.fbgDl,jdbcType=DECIMAL},
+      </if>
+      <if test="record.pressureL != null">
+        PRESSURE_L = #{record.pressureL,jdbcType=DECIMAL},
+      </if>
+      <if test="record.pressureH != null">
+        PRESSURE_H = #{record.pressureH,jdbcType=DECIMAL},
+      </if>
+      <if test="record.rehabilitationGuide != null">
+        REHABILITATION_GUIDE = #{record.rehabilitationGuide,jdbcType=VARCHAR},
+      </if>
+      <if test="record.nursingGuide != null">
+        NURSING_GUIDE = #{record.nursingGuide,jdbcType=VARCHAR},
+      </if>
+      <if test="record.healthGuide != null">
+        HEALTH_GUIDE = #{record.healthGuide,jdbcType=VARCHAR},
+      </if>
+      <if test="record.nutritionGuide != null">
+        NUTRITION_GUIDE = #{record.nutritionGuide,jdbcType=VARCHAR},
+      </if>
+      <if test="record.createtime != null">
+        CREATETIME = #{record.createtime,jdbcType=VARCHAR},
+      </if>
+      <if test="record.createorg != null">
+        CREATEORG = #{record.createorg,jdbcType=VARCHAR},
+      </if>
+      <if test="record.updateorg != null">
+        UPDATEORG = #{record.updateorg,jdbcType=VARCHAR},
+      </if>
+      <if test="record.updatetime != null">
+        UPDATETIME = #{record.updatetime,jdbcType=VARCHAR},
+      </if>
+      <if test="record.creater != null">
+        CREATER = #{record.creater,jdbcType=VARCHAR},
+      </if>
+      <if test="record.modified != null">
+        MODIFIED = #{record.modified,jdbcType=VARCHAR},
+      </if>
+      <if test="record.dataType != null">
+        DATA_TYPE = #{record.dataType,jdbcType=VARCHAR},
+      </if>
+      <if test="record.dataSource != null">
+        DATA_SOURCE = #{record.dataSource,jdbcType=VARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map">
+    update HD_MEDICAL_UPKEEP_MODEL
+    set ID = #{record.id,jdbcType=VARCHAR},
+      PERSONALID = #{record.personalid,jdbcType=VARCHAR},
+      ORGANIZEID = #{record.organizeid,jdbcType=VARCHAR},
+      MODELNAME = #{record.modelname,jdbcType=VARCHAR},
+      MODELTYPE = #{record.modeltype,jdbcType=VARCHAR},
+      STATUS = #{record.status,jdbcType=VARCHAR},
+      FBG = #{record.fbg,jdbcType=DECIMAL},
+      FBG_DL = #{record.fbgDl,jdbcType=DECIMAL},
+      PRESSURE_L = #{record.pressureL,jdbcType=DECIMAL},
+      PRESSURE_H = #{record.pressureH,jdbcType=DECIMAL},
+      REHABILITATION_GUIDE = #{record.rehabilitationGuide,jdbcType=VARCHAR},
+      NURSING_GUIDE = #{record.nursingGuide,jdbcType=VARCHAR},
+      HEALTH_GUIDE = #{record.healthGuide,jdbcType=VARCHAR},
+      NUTRITION_GUIDE = #{record.nutritionGuide,jdbcType=VARCHAR},
+      CREATETIME = #{record.createtime,jdbcType=VARCHAR},
+      CREATEORG = #{record.createorg,jdbcType=VARCHAR},
+      UPDATEORG = #{record.updateorg,jdbcType=VARCHAR},
+      UPDATETIME = #{record.updatetime,jdbcType=VARCHAR},
+      CREATER = #{record.creater,jdbcType=VARCHAR},
+      MODIFIED = #{record.modified,jdbcType=VARCHAR},
+      DATA_TYPE = #{record.dataType,jdbcType=VARCHAR},
+      DATA_SOURCE = #{record.dataSource,jdbcType=VARCHAR}
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.bailing.fupin.po.HdMedicalUpkeepModel">
+    update HD_MEDICAL_UPKEEP_MODEL
+    <set>
+      <if test="personalid != null">
+        PERSONALID = #{personalid,jdbcType=VARCHAR},
+      </if>
+      <if test="organizeid != null">
+        ORGANIZEID = #{organizeid,jdbcType=VARCHAR},
+      </if>
+      <if test="modelname != null">
+        MODELNAME = #{modelname,jdbcType=VARCHAR},
+      </if>
+      <if test="modeltype != null">
+        MODELTYPE = #{modeltype,jdbcType=VARCHAR},
+      </if>
+      <if test="status != null">
+        STATUS = #{status,jdbcType=VARCHAR},
+      </if>
+      <if test="fbg != null">
+        FBG = #{fbg,jdbcType=DECIMAL},
+      </if>
+      <if test="fbgDl != null">
+        FBG_DL = #{fbgDl,jdbcType=DECIMAL},
+      </if>
+      <if test="pressureL != null">
+        PRESSURE_L = #{pressureL,jdbcType=DECIMAL},
+      </if>
+      <if test="pressureH != null">
+        PRESSURE_H = #{pressureH,jdbcType=DECIMAL},
+      </if>
+      <if test="rehabilitationGuide != null">
+        REHABILITATION_GUIDE = #{rehabilitationGuide,jdbcType=VARCHAR},
+      </if>
+      <if test="nursingGuide != null">
+        NURSING_GUIDE = #{nursingGuide,jdbcType=VARCHAR},
+      </if>
+      <if test="healthGuide != null">
+        HEALTH_GUIDE = #{healthGuide,jdbcType=VARCHAR},
+      </if>
+      <if test="nutritionGuide != null">
+        NUTRITION_GUIDE = #{nutritionGuide,jdbcType=VARCHAR},
+      </if>
+      <if test="createtime != null">
+        CREATETIME = #{createtime,jdbcType=VARCHAR},
+      </if>
+      <if test="createorg != null">
+        CREATEORG = #{createorg,jdbcType=VARCHAR},
+      </if>
+      <if test="updateorg != null">
+        UPDATEORG = #{updateorg,jdbcType=VARCHAR},
+      </if>
+      <if test="updatetime != null">
+        UPDATETIME = #{updatetime,jdbcType=VARCHAR},
+      </if>
+      <if test="creater != null">
+        CREATER = #{creater,jdbcType=VARCHAR},
+      </if>
+      <if test="modified != null">
+        MODIFIED = #{modified,jdbcType=VARCHAR},
+      </if>
+      <if test="dataType != null">
+        DATA_TYPE = #{dataType,jdbcType=VARCHAR},
+      </if>
+      <if test="dataSource != null">
+        DATA_SOURCE = #{dataSource,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where ID = #{id,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.bailing.fupin.po.HdMedicalUpkeepModel">
+    update HD_MEDICAL_UPKEEP_MODEL
+    set PERSONALID = #{personalid,jdbcType=VARCHAR},
+      ORGANIZEID = #{organizeid,jdbcType=VARCHAR},
+      MODELNAME = #{modelname,jdbcType=VARCHAR},
+      MODELTYPE = #{modeltype,jdbcType=VARCHAR},
+      STATUS = #{status,jdbcType=VARCHAR},
+      FBG = #{fbg,jdbcType=DECIMAL},
+      FBG_DL = #{fbgDl,jdbcType=DECIMAL},
+      PRESSURE_L = #{pressureL,jdbcType=DECIMAL},
+      PRESSURE_H = #{pressureH,jdbcType=DECIMAL},
+      REHABILITATION_GUIDE = #{rehabilitationGuide,jdbcType=VARCHAR},
+      NURSING_GUIDE = #{nursingGuide,jdbcType=VARCHAR},
+      HEALTH_GUIDE = #{healthGuide,jdbcType=VARCHAR},
+      NUTRITION_GUIDE = #{nutritionGuide,jdbcType=VARCHAR},
+      CREATETIME = #{createtime,jdbcType=VARCHAR},
+      CREATEORG = #{createorg,jdbcType=VARCHAR},
+      UPDATEORG = #{updateorg,jdbcType=VARCHAR},
+      UPDATETIME = #{updatetime,jdbcType=VARCHAR},
+      CREATER = #{creater,jdbcType=VARCHAR},
+      MODIFIED = #{modified,jdbcType=VARCHAR},
+      DATA_TYPE = #{dataType,jdbcType=VARCHAR},
+      DATA_SOURCE = #{dataSource,jdbcType=VARCHAR}
+    where ID = #{id,jdbcType=VARCHAR}
+  </update>
+</mapper>

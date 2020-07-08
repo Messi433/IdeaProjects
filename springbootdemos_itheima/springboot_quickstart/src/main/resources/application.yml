@@ -1,0 +1,32 @@
+# 配置普通数据
+name: xiaoming
+# 配置对象数据
+# 配置对象数据2
+name3: {xiaohua:11,xiaoming:12}
+# 配置数据、集合(普通字符串)
+city:
+  - beijing
+  - shanghai
+  - jinan
+
+#配置数据、集合(普通字符串)2
+city2: [bj,jn,sh]
+#配置数据、集合(对象数据)
+student:
+  - name: tom
+    age: 17
+    addr: tianjin
+  - name: lucy
+    age: 18
+    addr: jinan
+
+student2: [{name:tom,age:18},{name:lucy,age:17}]
+
+#配置Map
+map:
+  key1: value1
+  key2: value2
+person:
+  age: 18
+  addr: beijing
+  name: xiaoming

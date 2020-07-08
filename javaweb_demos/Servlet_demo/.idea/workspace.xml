@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Servlet_demo:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6ecccc73-5b05-483a-a2c5-6d6f2229c559" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../../javase_demos/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javase_demos/collections_demos/net_demos.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javase_demos/multithread_demo/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javase_demos/net_demos/net_demos.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javase_demos/net_demos/src/tcp/bs_demo/BSServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javase_demos/net_demos/src/tcp/demo/TCPClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javase_demos/net_demos/src/tcp/demo/TCPServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javase_demos/net_demos/src/tcp/fileupload/FileTCPClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javase_demos/net_demos/src/tcp/fileupload/FileTCPServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javase_demos/net_demos/web/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javase_demos/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../javase_demos/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javase_demos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../javase_demos/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javase_demos/out/production/collections_demos/Demo1Collection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javase_demos/out/production/collections_demos/GenericDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javase_demos/out/production/collections_demos/GenericDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javase_demos/out/production/collections_demos/HashSetTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javase_demos/out/production/collections_demos/HashSetTest2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javase_demos/out/production/collections_demos/IteratorDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javase_demos/out/production/collections_demos/META-INF/collections_demos.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javase_demos/out/production/collections_demos/domain/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javase_demos/out/production/file_io_demos/META-INF/file_io_demos.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javase_demos/out/production/file_io_demos/file/FileAPI_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javase_demos/out/production/file_io_demos/file/FileAPI_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javase_demos/out/production/file_io_demos/file/FileAPI_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javase_demos/out/production/file_io_demos/file/FileAPI_4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javase_demos/out/production/file_io_demos/file/FileForeach.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javase_demos/out/production/file_io_demos/file/GenerateFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javase_demos/out/production/multithread_demo/META-INF/multithread_demo.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javase_demos/out/production/multithread_demo/anonymous/AnonymousInner$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javase_demos/out/production/multithread_demo/anonymous/AnonymousInner$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javase_demos/out/production/multithread_demo/anonymous/AnonymousInner$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javase_demos/out/production/multithread_demo/anonymous/AnonymousInner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javase_demos/out/production/multithread_demo/runnable/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javase_demos/out/production/multithread_demo/runnable/MyRunnable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javase_demos/out/production/multithread_demo/synchronize/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javase_demos/out/production/multithread_demo/synchronize/LockObj.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javase_demos/out/production/multithread_demo/synchronize/Ticket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javase_demos/out/production/multithread_demo/thread/App1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javase_demos/out/production/multithread_demo/thread/App2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javase_demos/out/production/multithread_demo/thread/MyThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javase_demos/out/production/multithread_demo/thread/MyThread2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javase_demos/out/production/multithread_demo/threadcondition/WaitingTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javase_demos/out/production/multithread_demo/threadcondition/WaitingTest$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javase_demos/out/production/multithread_demo/threadcondition/WaitingTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javase_demos/out/production/reflect_demo/com/example/ReflectDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javase_demos/out/production/reflect_demo/com/example/ReflectDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javase_demos/out/production/reflect_demo/com/example/ReflectDemo3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javase_demos/out/production/reflect_demo/com/example/ReflectDemo4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javase_demos/out/production/reflect_demo/com/example/ReflectDemoFrameWork.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javase_demos/out/production/reflect_demo/com/example/domain/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javase_demos/out/production/reflect_demo/com/example/pro.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="580" />
+    <option name="y" value="15" />
+    <option name="width" value="1105" />
+    <option name="height" value="940" />
+  </component>
+  <component name="ProjectId" id="1aKKDSQTWcUtAnj29kJPnuk50hs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ckzh1\IdeaProjects\Servlet_demo\src\main\webapp" />
+      <recent name="C:\Users\ckzh1\IdeaProjects\Servlet_demo\src\main\java\example" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tomcat8.5" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.29" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Servlet_demo:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_Servlet_demo" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="61411" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Servlet_demo:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6ecccc73-5b05-483a-a2c5-6d6f2229c559" name="Default" comment="" />
+      <created>1532076793355</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1532076793355</updated>
+      <workItem from="1532076797990" duration="1687000" />
+      <workItem from="1532355585181" duration="1818000" />
+      <workItem from="1532397909656" duration="621000" />
+      <workItem from="1532914507291" duration="461000" />
+      <workItem from="1586478727887" duration="563000" />
+      <workItem from="1586483633882" duration="26000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="229" y="28" key="SettingsEditor" timestamp="1586483647854">
+      <screen x="0" y="23" width="1440" height="733" />
+    </state>
+    <state x="229" y="28" key="SettingsEditor/0.23.1440.733@0.23.1440.733" timestamp="1586483647853" />
+    <state x="406" y="222" key="com.intellij.ide.util.TipDialog" timestamp="1586483633579">
+      <screen x="0" y="23" width="1440" height="733" />
+    </state>
+    <state x="406" y="222" key="com.intellij.ide.util.TipDialog/0.23.1440.733@0.23.1440.733" timestamp="1586483633579" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>Servlet_demo:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Servlet_demo</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: javax.servlet:javax.servlet-api:4.0.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Spring_XML_TX:war">
+    <output-path>$PROJECT_DIR$/Spring_XML_TX/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Spring_XML_TX</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Web01.war">
+      <element id="artifact" artifact-name="Spring_XML_TX:war exploded" />
+    </root>
+  </artifact>
+</component>

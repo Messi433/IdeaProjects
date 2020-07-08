@@ -1,0 +1,185 @@
+html {
+	font-size: 100px;
+}
+
+body {
+	font-size: 0.14rem;
+	background-color: #FBFBFB;
+	/*实际相当于14px*/
+}
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+#title {
+	height: 0.4rem;
+	background-color: #008001;
+}
+
+p {
+	padding: 0;
+	margin: 0;
+	color: #FFF;
+	font-size: 0.15rem;
+	padding-left: 0.25rem;
+	padding-top: 0.1rem;
+}
+
+
+/*类型*/
+
+#type {
+	background-image: url(../img/top_0.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	width: 100%;
+	height: 1.5rem;
+}
+
+.type input {
+	display: none;
+}
+
+.type {
+	float: left;
+	/*margin-left: 0.25rem;*/
+	margin-top: 1.1rem;
+	padding-left: 0.15rem;
+	padding-right: 0.15rem;
+	padding-top: 0.15rem;
+	padding-bottom: 0.08rem;
+	/*border-top-left-radius: 0.1rem;
+	border-top-right-radius: 0.1rem;*/
+}
+
+#type div:first-child {
+	margin-left: 0.3rem;
+}
+
+#type div:last-child {
+	padding-right: 0.15rem;
+}
+
+
+/*问题*/
+
+#question {
+	width: 61.5%;
+	height: 2.5rem;
+	margin-left: 0.3rem;
+	margin-right: 0.15rem;
+	padding-top: 0.3rem;
+	padding-left: 0.3rem;
+	padding-right: 0.3rem;
+	background-color: white;
+}
+
+#machine_1 {
+	width: 23%;
+	border-bottom: 1px solid #dbdbdb;  
+	border-top:0px;  
+	border-left:0px;  
+	border-right:0px; 
+	outline:none;
+	height: 0.25rem;
+}
+
+#question span {
+	color: darkgray;
+}
+
+#machine_2 {
+	width: 57%;
+	border-bottom: 1px solid #dbdbdb;  
+	border-top:0px;  
+	border-left:0px;  
+	border-right:0px; 
+	outline:none;
+	height: 0.25rem;
+}
+
+#questionDescription {
+	width: 95%;
+	outline:none;
+	height: 1rem;
+	margin-top: 0.2rem;
+	color: darkgrey;
+	rows:"3";
+	cols:"20"
+}
+
+#queryButton {
+	width: 2rem;
+	height: 0.45rem;
+	border: none;
+	outline:none;
+	margin-top: 0.2rem;
+	border-radius: 0.5rem;
+	background-color: red;
+	background: -webkit-linear-gradient(left, #F0E68C, #FF8C00);
+	/* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(right, #F0E68C, #FF8C00);
+	/* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(right, #F0E68C, #FF8C00);
+	/* Firefox 3.6 - 15 */
+	background: linear-gradient(to right, #F0E68C, #FF8C00);
+	/* 标准的语法（必须放在最后） */
+	
+	/*background: -webkit-linear-gradient(left, orange , darkorange); /* Safari 5.1 - 6.0 */
+	/*background: -o-linear-gradient(right, orange, darkorange); /* Opera 11.1 - 12.0 */
+	/*background: -moz-linear-gradient(right, orange, darkorange); /* Firefox 3.6 - 15 */
+	/*background: linear-gradient(to right, orange , darkorange); /* 标准的语法（必须放在最后） */
+	
+	font-size: 0.2rem;
+	font-family: "微软雅黑";
+	font-style: normal;
+	color: white;
+}
+/*底部*/
+#bottom {
+	padding-bottom: 1.5rem;
+}
+#bottom p{
+	color: black;
+	font-weight: 900;
+}
+#data, #answer, #resources {
+	float: left;
+	margin-top: 0.2rem;
+}
+
+#data{
+	width: 0.6rem;
+	height: 0.6rem;
+	background-image: url(../img/main_book_button.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	margin-left: 0.3rem;
+}
+#answer{
+	width: 0.6rem;
+	height: 0.6rem;
+	background-image: url(../img/mian_set_button.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	margin-left: 0.4rem;
+}
+#resources{
+	width: 0.6rem;
+	height: 0.6rem;
+	background-image: url(../img/mian_intnet_button.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	margin-left: 0.4rem;
+}
+#bottom_0 span {
+	position: relative;
+	font-size: 0.1rem;
+	top: 0.7rem;
+}
+a{
+	text-decoration: none;
+	color: black;
+}

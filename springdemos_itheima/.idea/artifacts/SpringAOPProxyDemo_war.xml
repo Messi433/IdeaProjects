@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SpringAOPProxyDemo:war">
+    <output-path>$PROJECT_DIR$/SpringAOPProxyDemo/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>SpringAOPProxyDemo</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Web01.war">
+      <element id="artifact" artifact-name="SpringAOPProxyDemo:war exploded" />
+    </root>
+  </artifact>
+</component>

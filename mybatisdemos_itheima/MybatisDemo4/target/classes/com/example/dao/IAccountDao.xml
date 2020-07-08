@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.example.dao.IAccountDao">
+    <resultMap id="accountMap" type="account">
+        <id property="id" column="id"></id>
+        <result property="uid" column="uid"></result>
+        <result property="money" column="money"></result>
+        <!--从表方(user表)通过uid查询，封装实体属性-->
+        <association property="user" column="uid" javaType="user" select="com.example.dao.IUserDao.findById">
+        </association>
+    </resultMap>
+    <select id="findAll" resultMap="accountMap">
+        select * from Account
+    </select>
+    <select id="findAccountByUid" resultType="Account">
+        select * from Account where uid = #{uid}
+    </select>
+
+</mapper>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--
+    namespace类似于包名
+    parameterType入参值类型
+    resultType映射的pojo对象
+    #{}点位符相当于jdbc ?
+    -->
+<mapper namespace="com.mybatis.entity.User">
+    <select id="getUserById" parameterType="int" resultType="com.mybatis.entity.User">
+        <!-- 尽量不要写select * from会造成资源浪费-(良好习惯)-->
+        SELECT id,username,password from user where id = #{id}
+    </select>
+    <!-- 根据username模糊查询-->
+    <!--
+        #{}占位符
+        #{},参数"%字符串%"
+        #{%%},参数"字符串"
+
+        ${}拼接字符串，里面默认接收pojo属性值,若parameterType传输简单类型值，那么只能${value}
+    -->
+
+    <select id="getUserByName" parameterType="string" resultType="com.mybatis.entity.User">
+        <!--
+            select id,username,password from user where username like #{name}
+            不可以select id,username,password from user where username like '%#{name}%'
+            select id,username,password from user where username like #{%%}
+            不可以select id,username,password from user where username like ${value}
+             select id,username,password from user where username like '${value}'
+             select id,username,password from user where username like '%${value}%'
+         -->
+        select id,username,password from user where username like '%${value}%'
+    </select>
+    <!--useGeneratedKeys="true"使用自增  keyProperty="id"返回pojo的属性-->
+    <insert id="insertUser" parameterType="com.mybatis.entity.User" useGeneratedKeys="true" keyProperty="id">
+        insert into user (username,password) values (#{username},#{password})
+        <!--返回自增主键 原理是调用mysql的函数-->
+        <!--
+            keyColumn主键对应表的哪一列
+            keyProperty主键对应pojo的哪一个属性
+            order设置在执行insert语句之前执行selectkey中的函数还是之后
+        -->
+        <!--<selectKey keyColumn="id" keyProperty="id" order="AFTER" resultType="int">
+            select last_insert_id()
+        </selectKey>-->
+    </insert>
+    <update id="updateUser" parameterType="com.mybatis.entity.User">
+        update user set username=#{username},password=#{password} where id =#{id}
+    </update>
+
+    <delete id="deleteUser" parameterType="int">
+        delete from user where id = #{id}
+    </delete>
+</mapper>

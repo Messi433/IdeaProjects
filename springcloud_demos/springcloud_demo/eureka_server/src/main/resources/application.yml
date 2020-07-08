@@ -1,0 +1,39 @@
+# =====================非高可用，单节点配置=====================
+spring:
+  application:
+    name: eureka-server
+server:
+  port: 8000 #端口
+#配置eureka server
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    register-with-eureka: false #是否将自己注册到注册中心
+    fetch-registry: false #是否从eureka中获取注册信息
+    service-url: #配置暴露给Eureka Client的请求地址
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+      instance-id: ${spring.cloud.client.ip-address}:${server.port} #向注册中心中注册服务id，明确IP地址
+      lease-expiration-duration-in-seconds: 10 #eureka client发送心跳给server端后，续约到期时间(默认90秒)，10s无响应丢弃
+      lease-renewal-interval-in-seconds: 5 #发送心跳续约间隔
+      server:
+        # 自我保护机制，实际开发一般不设置
+        enable-self-preservation: false #关闭自我保护(实际开发中一般不设置)
+        eviction-interval-timer-in-ms: 4000 #剔除时间间隔,单位:毫秒
+
+
+# =====================高可用，主从配置=====================
+#spring:
+#  application:
+#    name: eureka-server
+## 8000主机，注册到8001主机
+#server:
+#  port: 8000 #端口
+##配置eureka server
+#eureka:
+#  client:
+#    #register-with-eureka: false #是否将自己注册到注册中心
+#    #fetch-registry: false #是否从eureka中获取注册信息
+#    service-url: #配置暴露给Eureka Client的请求地址
+#      defaultZone: http://127.0.0.1:8001/eureka/
+
