@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0afdc1f8-f91d-4cfa-a63d-61f63f1e7937" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrent_demos.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/part1/Demo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/part1/Demo10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/part1/Demo11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/part1/Demo12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/part1/Demo13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/part1/Demo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/part1/Demo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/part1/Demo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/part1/Demo5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/part1/Demo6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/part1/Demo7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/part1/Demo8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/part1/Demo9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javase_demos/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javase_demos/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javase_demos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javase_demos/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jvm_demos/out/production/jvm_demos/part2_garbage_collection/TTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jvm_demos/src/part2_garbage_collection/TTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="D:\dev\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1f05VeYmH0ZyNVsatI35JCDpCYS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="D:/docs/IdeaProjects" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="demo.part1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Demo13">
+    <configuration name="Demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.part1.Demo1" />
+      <module name="concurrent_demos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.part1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.part1.Demo13" />
+      <module name="concurrent_demos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.part1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.part1.Demo3" />
+      <module name="concurrent_demos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.part1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.part1.Demo4" />
+      <module name="concurrent_demos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.part1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.part1.Demo5" />
+      <module name="concurrent_demos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.part1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Demo13" />
+        <item itemvalue="Application.Demo5" />
+        <item itemvalue="Application.Demo4" />
+        <item itemvalue="Application.Demo3" />
+        <item itemvalue="Application.Demo1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\ckzh1\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0afdc1f8-f91d-4cfa-a63d-61f63f1e7937" name="Default Changelist" comment="" />
+      <created>1595342194847</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595342194847</updated>
+      <workItem from="1595342196670" duration="2423000" />
+      <workItem from="1595685231509" duration="2075000" />
+      <workItem from="1595993864394" duration="716000" />
+      <workItem from="1596248090449" duration="382000" />
+      <workItem from="1596367082787" duration="881000" />
+      <workItem from="1596422822878" duration="2401000" />
+      <workItem from="1596619847807" duration="298000" />
+      <workItem from="1596697316038" duration="1572000" />
+      <workItem from="1597320488037" duration="409000" />
+      <workItem from="1597375726047" duration="1743000" />
+      <workItem from="1597556701417" duration="297000" />
+      <workItem from="1597718661571" duration="3397000" />
+      <workItem from="1598003797150" duration="6140000" />
+      <workItem from="1598090966102" duration="1890000" />
+      <workItem from="1598238635642" duration="3000" />
+      <workItem from="1598455993423" duration="112000" />
+      <workItem from="1599189715285" duration="5000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1595345960221">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1595345960221" />
+    <state x="449" y="52" key="#com.intellij.unscramble.UnscrambleDialog" timestamp="1596423224967">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="52" key="#com.intellij.unscramble.UnscrambleDialog/0.0.1536.824@0.0.1536.824" timestamp="1596423224967" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1595342504780">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1595342504780" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1598023445635">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598023445635" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1598023445635">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598023445635" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1598023445635">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598023445635" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1598023445635">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598023445635" />
+    <state x="270" y="57" key="SettingsEditor" timestamp="1598106043214">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1598106043214" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1596423485106">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1596423485106" />
+  </component>
+</project>
